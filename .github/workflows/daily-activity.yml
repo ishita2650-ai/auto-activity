@@ -22,8 +22,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "ishita2650-ai"
+          git config --global user.email "ishita.2650@gmail.com"
           git add .
           git commit -m "Daily activity update" || exit 0
           git push
